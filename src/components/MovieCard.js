@@ -11,7 +11,9 @@ const MovieCard = ({ data }) => {
         className="movie-card__image"
         style={{ backgroundImage: `url(${posterURL})` }}
       >
-        <span className="movie-card__description">{data.overview}</span>
+        <div className="movie-card__bg">
+          <span className="movie-card__description">{data.overview}</span>
+        </div>
       </div>
       <div className="movie-card__content">
         <span className="movie-card__content-title">{data.original_title}</span>

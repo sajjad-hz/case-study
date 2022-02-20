@@ -8,26 +8,26 @@
   }
 
   input {
-      height: 48px;
-      color: $primary-color;
+    height: 48px;
+    color: $primary-color;
     background-color: transparent;
     border-radius: 5px;
     border-color: $border-color;
     outline: none;
     caret-color: $primary-color;
-    
+
     &::placeholder {
-        color: $highlight-alt;
+      color: $highlight-alt;
     }
 
     &:hover {
-        border-color:  $highlight-alt !important;
+      border-color: $highlight-alt !important;
     }
 
     &:focus {
-        border-color: $highlight-alt !important;
-        box-shadow: none;
-        border-right: none;
+      border-color: $highlight-alt !important;
+      box-shadow: none;
+      border-right: none;
     }
   }
 
@@ -38,9 +38,14 @@
     border: 1px solid $secondary-color;
 
     &:hover {
-        background-color: $highlight-color;
-    border-color:  $highlight-color;
-
+      background-color: $highlight-color;
+      border-color: $highlight-color;
     }
+  }
+  @media (min-width: 768px) {
+    flex: 1.5;
+  }
+  @media (min-width: 992px) {
+    flex: 2;
   }
 }
