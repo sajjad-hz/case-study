@@ -1,0 +1,41 @@
+const data = {
+  page: 1,
+  total_results: 1,
+  total_pages: 1,
+  results: [
+    {
+      popularity: 20.104,
+      id: 4638,
+      video: false,
+      vote_count: 4432,
+      vote_average: 7.5,
+      title: "Hot Fuzz - Zwei abgewichste Profis",
+      release_date: "2007-02-14",
+      original_language: "en",
+      original_title: "Hot Fuzz",
+      genre_ids: [80, 28, 35],
+      backdrop_path: "/zuskekrfW3gj9ttXNVhfdHe5n22.jpg",
+      adult: false,
+      overview: "Der Polizist Nicholas Angel wird von London in das Pr",
+      poster_path: "/679aXlqlwX9RqNtAFODwMLzZNw8.jpg",
+    },
+    {
+        popularity: 20.104,
+        id: 4638,
+        video: false,
+        vote_count: 4432,
+        vote_average: 7.5,
+        title: "Hot Fuzz - Zwei abgewichste Profis",
+        release_date: "2007-02-14",
+        original_language: "en",
+        original_title: "Hot Fuzz",
+        genre_ids: [80, 28, 35],
+        backdrop_path: "/zuskekrfW3gj9ttXNVhfdHe5n22.jpg",
+        adult: false,
+        overview: "Der Polizist Nicholas Angel wird von London in das Pr",
+        poster_path: "/679aXlqlwX9RqNtAFODwMLzZNw8.jpg",
+      },
+  ],
+};
+
+export default data;

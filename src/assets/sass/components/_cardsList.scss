@@ -1,0 +1,54 @@
+.result-text {
+    
+}
+
+.cards-list {
+    
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+
+        &-text {
+            font-size: 20px;
+        }
+
+        .ant-select-selector {
+            background-color: $border-color !important;
+            color: $primary-color;
+            border: none !important;
+            border-radius: 5px !important;
+            outline: none !important;
+        }
+
+        .ant-select-arrow {
+            color: $primary-color;
+        }
+
+        
+    }
+
+&__items {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+}
+
+.ant-select-dropdown {
+    background-color: $border-color !important;
+    color: $primary-color !important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    color: $mild-grey;
+    font-weight: 600;
+    background-color: $highlight-alt!important;
+
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: #f5f5f5;
+}

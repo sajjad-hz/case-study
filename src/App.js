@@ -1,8 +1,14 @@
+import Header from "./components/Header";
+import CardsList from "./components/CardsList";
 
 function App() {
   return (
     <div className="App">
-      Hello, World
+      <div className="container">
+        <Header />
+
+        <CardsList />
+      </div>
     </div>
   );
 }

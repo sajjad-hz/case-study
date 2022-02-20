@@ -1,0 +1,23 @@
+.header {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  &__items {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+
+    &-logo {
+      width: 48px;
+      height: 48px;
+    }
+
+    &-title {
+        margin: 0;
+        color: $primary-color;
+    }
+  }
+}

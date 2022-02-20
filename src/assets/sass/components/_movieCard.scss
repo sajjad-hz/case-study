@@ -1,0 +1,64 @@
+.movie-card {
+  width: 100%;
+  cursor: pointer;
+
+  &__image {
+    width: 100%;
+    height: 340px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+    overflow: hidden;
+    transition: all linear 0.3s;
+
+    &:hover span {
+      transform: translateY(0);
+      background-color: rgba($color: #808080, $alpha: 0.8);
+    }
+  }
+
+  &__description {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    transform: translateY(-100%);
+    transition: all linear 0.3s;
+  }
+
+  &__content {
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &-title {
+      font-size: 20px;
+    }
+
+    &-year {
+      font-size: 16px;
+      color: $highlight-alt;
+    }
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+
+    .star > svg {
+      fill: $amber;
+    }
+
+    .heart-filled > svg {
+      fill: $red;
+    }
+
+    &-count {
+      color: $highlight-alt;
+    }
+  }
+}
